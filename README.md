@@ -36,10 +36,40 @@ npm install
 
 # 3. Deploying on development
 
+## Set the node environment variable to 'development'
+
+This ensures that the docker scripts will use the right build for development
+
+```
+export NODE_ENV=development
+```
+
 ## Checkout to the develop branch
 
 ```
 git checkout develop
+```
+
+## Run the 'start-servers' script
+
+This starts a 'postgres' container and an 'adminer' container. More info on these containers can be find in the `/docs` folder.
+
+```
+./start-servers.sh
+```
+
+## Run the 'import database' script
+
+This imports the database file contained in `/sql/dumps/minorwebdev.sql`
+
+```
+./import-database.sh
+```
+
+## Go to the /app/ directory
+
+```
+cd app
 ```
 
 ## Run gulp watch
@@ -61,27 +91,31 @@ nodemon server.js
 
 # 4. Deploying on production
 
-## Install forever on the server.
+## Set the node environment variable to 'production'
 
-Forever will run the server continuously and detached
-
-```
-npm install -g forever
-```
-
-## Run gulp
-
-This will compile all the assets
+This ensures that the docker scripts will use the right build for production
 
 ```
-gulp
+export NODE_ENV=production
 ```
 
-## Run forever and let it write logs in the `/logs` folder.
+## Run the 'start-servers' script
+
+This can take a while as it correctly installs and builds the webserver container
 
 ```
-forever -o logs/node-server-out.log -e logs/node-server-error.log start app.js
+./start-servers.sh
 ```
+
+## Run the 'import database' script
+
+This imports the database file contained in `/sql/dumps/minorwebdev.sql`
+
+```
+./import-database.sh
+```
+
+Your server should now run on the production server on port 3000, you could use a proxy through Apache or NGINX to serve the site on a domain or on another port.
 
 # 5. Experiments
 
@@ -124,6 +158,17 @@ In our interviews/test with Marijn, he told us that he really liked interfaces d
 ![hotkeys](https://i.imgur.com/Yt4w2Wo.png)
 
 ## Spatial navigation slider element
+
+I made this prototype because I heard that marijn hated carousel elements in websites because they never seem to work with spacebar or tabs and are often very fidgety.
+
+For this reason, I tried to make a carousel element that would be more pleasurable for Marijn to use and ended up with two prototypes:
+
+- A carousel element with navigation using 'tab' keys and 'arrow' keys.
+  ![spatial navigation slider element](https://i.imgur.com/QwpJEXT.png)
+- A carousel element with navigation using 'tab' keys, 'arrow' keys and clickable buttons on the side
+  ![spatial navigation slider element with buttons](https://i.imgur.com/3D5aGFQ.png)
+
+After the third usability/accessibility testing with Marijn, it became clear that he prefers the second option, but, was confused about not being able to use the 'spacebar' key to navigate through the carousel items. With this feedback, I decided to create another prototype with the 'spacebar' navigation added. This last version of the prototype made it to the website.
 
 # 6. Insights
 
