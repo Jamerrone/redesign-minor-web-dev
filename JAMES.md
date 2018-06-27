@@ -108,7 +108,7 @@ PS: Like the templates and components I have worked on much more functionality t
 
 ## University Subjects
 
-I wish I could say that I worked on all six subjects during this final project. And while this is almost true I never touched Performance Matters or Real-Time Web. Performance Matters was part of Jelle’s learning goals so we depended on him in order to keep our website fast and fluid. Real-Time Web was not part of our concept and using **[sockets.io](http://sockets.io)** just to say we used it was not a good option.
+I wish I could say that I worked on all six subjects during this final project. And while this is almost true I never touched Performance Matters or Real-Time Web. Performance Matters was part of Jelle’s learning goals so we depended on him in order to keep our website fast and fluid. Real-Time Web was not part of our concept and using **[socket.io](http://socket.io)** just to say we used it was not a good option.
 
 Subjects like CSS To The Rescue and Web APP From Scratch were obviously used. There is no way we could have to build any website without using the different techniques we learned from this two subjects. The only difference was that WAFS used OOP techniques while I choose to use the Functional Programming approach. This was just about personal preferences.
 
