@@ -1,6 +1,6 @@
 # Website redesign for the minor Web Development
 
-You can find my personal readme [here](./JAMES.md) and my progress blog [here](https://jamerrone.github.io/meesterproef-progress-blog/).
+**You can find my personal readme [here](./JAMES.md) and my progress blog [here](https://jamerrone.github.io/meesterproef-progress-blog/).**
 
 During this project we redesigned the website for the minor 'web development' at the University of Applied sciences in Amsterdam. We have done our best to make a very experimental yet pleasurable web site.
 
