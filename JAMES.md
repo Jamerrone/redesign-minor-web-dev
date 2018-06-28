@@ -11,6 +11,7 @@ You can also find my entire progress with I updated every day **[here](https://j
   - [Templates & Components I Worked On](#templates--components-i-worked-on)
   - [Functionality I Worked On](#functionality-i-worked-on)
   - [University Subjects](#university-subjects)
+  - [Pullrequests Made By Me](#pullrequests-made-by-me)
 
 ## Personal Learning Goals
 
@@ -115,3 +116,18 @@ Subjects like CSS To The Rescue and Web APP From Scratch were obviously used. Th
 My biggest focus between subjects was Web Design. I always hear from people around me that my designs are simple and clean. While this always worked just fine, they all lacked personality. I have built every component keeping the WoW factor in mind. All I ever wanted was to impress a user with animations or fun interactions. The homepage header is the component where this can be seen the best, it is also my proudest contribution to our website.
 
 My progress blog can be found **[here](https://jamerrone.github.io/meesterproef-progress-blog/)**.
+
+## Pullrequests Made By Me
+
+- [Added ':' after each name if it wasn't there already #3](https://github.com/baskager/redesign-minor-web-dev/pull/3)
+- [Feature/6 partners and team template #17](https://github.com/baskager/redesign-minor-web-dev/pull/17)
+- [Feature/9 signup template #19](https://github.com/baskager/redesign-minor-web-dev/pull/19)
+- [Feature/20 partners and team template styles #26](https://github.com/baskager/redesign-minor-web-dev/pull/26)
+- [Testing pull request #27](https://github.com/baskager/redesign-minor-web-dev/pull/27)
+- [Feature/21 signup template styles #37](https://github.com/baskager/redesign-minor-web-dev/pull/37)
+- [Finish signup styles #39](https://github.com/baskager/redesign-minor-web-dev/pull/39)
+- [Feature/10 contact template #48](https://github.com/baskager/redesign-minor-web-dev/pull/48)
+- [Feature/50 multiple form fixes #51](https://github.com/baskager/redesign-minor-web-dev/pull/51)
+- [Users can now use their arrow keys in order to scroll up or down #57](https://github.com/baskager/redesign-minor-web-dev/pull/57)
+- [Feature/63 focus on scroll #65](https://github.com/baskager/redesign-minor-web-dev/pull/65)
+- [Feature/75 the wow header v2 #85](https://github.com/baskager/redesign-minor-web-dev/pull/85)
